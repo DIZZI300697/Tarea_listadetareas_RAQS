@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_taberna"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe tu tarea aquí"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFB74D"
+        android:text="Agregar tarea"
+        android:textColor="#000000"
+        app:strokeColor="#000000"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btnDeleteTask"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFB74D"
+        android:text="Eliminar tarea seleccionada"
+        android:textColor="#000000"
+        app:strokeColor="#000000"
+        app:strokeWidth="3dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="12dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/taskListLayout"
+        android:layout_width="372dp"
+        android:layout_height="340dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>
